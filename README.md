@@ -1,4 +1,4 @@
-# 🧠 LumoNest
+# LumoNest
 
 This is a [Next.js](https://nextjs.org) application bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org) application bootstrapped with [`create-n
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Install dependencies and run the development server:
 
@@ -25,7 +25,7 @@ app/page.tsx
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Built with **Next.js App Router**
 - ✅ Minimal, responsive **tile-based UI**
@@ -37,7 +37,7 @@ app/page.tsx
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```bash
 /app
@@ -52,7 +52,7 @@ app/page.tsx
 
 ---
 
-## 🛆 Tech Stack
+## Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org) 15.x (App Router)
 - **Styling:** Tailwind CSS
@@ -62,7 +62,7 @@ app/page.tsx
 
 ---
 
-## 📘 Resources
+## Resources
 
 - [Next.js Documentation](https://nextjs.org/docs)  
 - [Learn Next.js Interactive Course](https://nextjs.org/learn)  
@@ -70,15 +70,13 @@ app/page.tsx
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 This app is optimized for one-click deployment on [Vercel](https://vercel.com):
 
-> 📌 Ensure you have your environment variables set in the Vercel dashboard under Project Settings → Environment Variables.
-
 ---
 
-## 🚣 Roadmap
+## Roadmap
 
 - [x] Initial layout + component structure
 - [x] Feature tile interface with visual polish
@@ -89,7 +87,7 @@ This app is optimized for one-click deployment on [Vercel](https://vercel.com):
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Antonio Lee**  
 [GitHub – @techdudetony](https://github.com/techdudetony)  
@@ -97,6 +95,6 @@ This app is optimized for one-click deployment on [Vercel](https://vercel.com):
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
