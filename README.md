@@ -1,8 +1,8 @@
-# 🧠 LumoNest — Knowledge Base
+# 🧠 LumoNest
 
 This is a [Next.js](https://nextjs.org) application bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-The **LumoNest Knowledge Base** is a modular, responsive, and modern frontend experience that serves as a central hub for curated content — including educational articles, mindful activities, and local resources — delivered through a polished, tile-based interface inspired by Apple Vision UI aesthetics.
+**LumoNest** is a modular, responsive, and modern frontend experience that serves as a central hub for curated content — including educational articles, mindful activities, and local resources — delivered through a polished, tile-based interface inspired by Apple Vision UI aesthetics.
 
 ---
 
