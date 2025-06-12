@@ -2,10 +2,15 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useModal } from "@/context/ModalContext";
+import AuthModal from "@/components/AuthModal";
 
 export default function Home() {
+
+  const { open } = useModal();
+
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#D1EBF7] to-white text-grey-800 px-6 py-12">
+    <main className="min-h-screen text-grey-800 px-6 py-12">
       {/* Hero */}
       <section className="max-w-4xl mx-auto text-center mb-16">
         <h1 className="text-4xl md:text-9xl font-extrabold text-gray-900">
@@ -22,12 +27,12 @@ export default function Home() {
         </p>
 
         <div className="mt-6 justify-center gap-4">
-          <Link href="/login" className="bg-[#D1EBF7] text-gray-600 px-6 py-2 mr-4 rounded-xl shadow hover:bg-[#5AC0EC] transition">
+          <button
+            onClick={open}
+            className="bg-[#D1EBF7] text-gray-600 px-6 py-2 mr-4 rounded-xl shadow hover:bg-[#5AC0EC] transition"
+          >
             Sign In
-          </Link>
-          <Link href="/explore" className="bg-[#D1EBF7] text-gray-600 px-6 py-2 rounded-xl shadow hover:bg-[#5AC0EC] transition">
-            Explore Anonymously
-          </Link>
+          </button>
         </div>
       </section>
 
@@ -70,6 +75,8 @@ export default function Home() {
       <footer className="mt-24 text-center text-sm text-gray-500">
         &copy; {new Date().getFullYear()} LumoNest. All rights reserved.
       </footer>
+
+      <AuthModal />
     </main>
   )
 }
