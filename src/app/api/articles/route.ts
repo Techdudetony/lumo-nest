@@ -13,7 +13,10 @@ export async function GET() {
       const existing = await getDocs(checkQuery);
 
       if (existing.empty) {
-        await addDoc(articleRef, article);
+        await addDoc(articleRef, {
+          ...article,
+          topic: article.topic || "General", // ensures topic is saved
+        });
         console.log(`✅ Added: ${article.title}`);
       } else {
         console.log(`⚠️ Skipped duplicate: ${article.title}`);
