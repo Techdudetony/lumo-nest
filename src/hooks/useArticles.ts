@@ -11,6 +11,7 @@ export interface Article {
     tags?: string[];
     type?: string;
     publishedAt?: string;
+    topic?: string;
 }
 
 export default function useArticles() {
